@@ -1,0 +1,18 @@
+name-generator {
+  display: block;
+  min-width: 400px;
+  width: 680px;
+  max-width: 500px;
+
+  text-align: center;
+
+  .fat-card md-card-content {
+    padding: 30px !important;
+  }
+
+  .letter-buttons {
+    button {
+      margin: 3px;
+    }
+  }
+}
