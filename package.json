@@ -8,6 +8,7 @@
     "angular-aria": "^1.5.0",
     "angular-material": "^1.0.6",
     "angular-messages": "^1.5.0",
+    "font-awesome": "^4.5.0",
     "lodash": "^4.6.1"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.14"
   },
   "scripts": {

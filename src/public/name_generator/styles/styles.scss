@@ -15,4 +15,29 @@ name-generator {
       margin: 3px;
     }
   }
+
+  .upvote-button, .downvote-button {
+    i {
+      opacity: 0.8;
+      &:focus {outline:0;}
+    }
+    &:hover {
+      i {
+        opacity: 1;
+      }
+    }
+  }
+
+  .liked {
+    padding: 0;
+    margin-bottom: 0;
+    min-height: 80px;
+    max-height: 80px;
+    overflow: auto;
+    > li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 10px 10px 0;
+    }
+  }
 }
